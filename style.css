@@ -1,0 +1,53 @@
+selection body {
+    font-family: Bradley Hand;
+    margin: 2em;
+    width: 90%;
+    height: 100%;
+  }
+
+  body {
+    font-family: Trattatello;
+    margin: 2em;
+    width: 90%;
+    height: 100%;
+  }
+  
+  h1 {
+    color: #373fff;
+    font-size: 18pt;
+  }
+  .special-h2 {
+    margin-top: 0;
+  }
+  h2 {
+    font-size: 50pt;
+    /*   margin-top:0; */
+  }
+  h3 {
+     font-size: 15pt;
+  }
+  
+/*to use variable, use :root */
+
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+  }
+  
+  body { background-color: var(--blue); }
+  
+  h2 { border-bottom: 2px solid var(--blue); }
+  
+  .container {
+    color: var(--blue);
+    background-color: var(--white);
+    padding: 15px;
+  }
+  
+  button {
+    background-color: var(--white);
+    color: var(--blue);
+    border: 1px solid var(--blue);
+    padding: 5px;
+  }
+   
