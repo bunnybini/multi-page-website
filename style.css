@@ -9,7 +9,7 @@ body {
   font-size: 50px;
   height: 100vh;
   /* padding-top: 80px; */
-  background-color: url(/image/sky.jpg);
+  background: url(./image/green.jpg);
   background-position: 0%;
   background-size: 110vw;
 }
@@ -22,12 +22,12 @@ body {
   letter-spacing: 30px;
 } */
 
-.gallery {
-  /* width: 1000px;
+/* .gallery { */
+/* width: 1000px;
   margin: 0 auto; */
 
-  /* position: relative; */
-}
+/* position: relative; */
+/* } */
 
 .gallery__photo {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
