@@ -1,53 +1,159 @@
-selection body {
-    font-family: Bradley Hand;
-    margin: 2em;
-    width: 90%;
-    height: 100%;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  body {
-    font-family: Trattatello;
-    margin: 2em;
-    width: 90%;
-    height: 100%;
-  }
-  
-  h1 {
-    color: #373fff;
-    font-size: 18pt;
-  }
-  .special-h2 {
-    margin-top: 0;
-  }
-  h2 {
-    font-size: 50pt;
-    /*   margin-top:0; */
-  }
-  h3 {
-     font-size: 15pt;
-  }
-  
+body {
+  font-family: "Trattatello", "Bradley Hand";
+  font-size: 50px;
+  height: 100vh;
+  /* padding-top: 80px; */
+  background-color: url(/image/sky.jpg);
+  background-position: 0%;
+  background-size: 110vw;
+}
+
+/* h1 {
+  text-align: center;
+  padding-bottom: 100px;
+  color: #14addc;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+} */
+
+.gallery {
+  /* width: 1000px;
+  margin: 0 auto; */
+
+  /* position: relative; */
+}
+
+.gallery__photo {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  /* border-radius: 2px; */
+
+  position: absolute;
+  transition: all 0.2s;
+  z-index: 10;
+  outline-offset: 20px;
+}
+
+/* paper */
+.gallery__photo--p1 {
+  width: 200px;
+  height: 250px;
+  top: 0;
+  left: 0;
+}
+
+/* green */
+.gallery__photo--p2 {
+  width: 300px;
+  height: 250px;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+/* newspaper */
+.gallery__photo--p3 {
+  width: 250px;
+  height: 250px;
+  top: 500px;
+  left: 20%;
+}
+
+/* sky */
+.gallery__photo--p4 {
+  width: 250px;
+  height: 250px;
+  top: 400px;
+  left: 600px;
+}
+
+.gallery__photo:hover {
+  /* outline: 15px solid #14addc; */
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  transform: scale(1.05) translateY(-20px);
+  z-index: 20;
+}
+.gallery:hover .gallery__photo:not(:hover) {
+  transform: scale(0.9);
+}
+
+/* * {
+  margin: 0;
+  padding: 0;
+} 
+
+.gallery__photo {
+} 
+
+.gallery__photo--p1 {
+  width: 100;
+  height: 100;
+  top: 0px;
+  left: 0px;
+}
+
+.gallery__photo--p2 {
+  width: 250px;
+  height: 250px;
+  top: 10;
+  right: 0;
+
+   z-index: 1;
+}
+.gallery {
+  width: 1000px;
+}
+
+body {
+  font-family: "Trattatello", "Bradley Hand";
+  font-size: 20px;
+  color: #2f2f2f;
+  background: url(/image/sky.jpg);
+  background-position: 0%;
+  background-size: 110vw;
+  width: 1000px;
+  height: 70vh;
+}
+
+header{
+  font-family: Trattatello;
+  font-weight: 900;
+  font-size: 150px;
+  text-transform: uppercase;
+}
+
+p{
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+body {
+  font-family: "Trattatello", "Bradley Hand";
+  margin: 2em;
+  width: 90%;
+  height: 100%;
+}
+
+h1 {
+  color: black;
+  font-size: 150pt;
+}
+
+.special-h2 {
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 50pt;
+   margin-top:0;
+}
+
+h3 {
+  font-size: 15pt;
+}
 /*to use variable, use :root */
-
-:root {
-    --blue: #1e90ff;
-    --white: #ffffff;
-  }
-  
-  body { background-color: var(--blue); }
-  
-  h2 { border-bottom: 2px solid var(--blue); }
-  
-  .container {
-    color: var(--blue);
-    background-color: var(--white);
-    padding: 15px;
-  }
-  
-  button {
-    background-color: var(--white);
-    color: var(--blue);
-    border: 1px solid var(--blue);
-    padding: 5px;
-  }
-   
