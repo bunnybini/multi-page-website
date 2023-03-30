@@ -25,6 +25,14 @@ body {
   background-image: url(/image/2page/flower.2.png);
 }
 
+.thridbackground {
+  background-image: url(/image/3page/flower.3.png);
+}
+
+.Forthbackground {
+  background-image: url(/image/2page/flower.2.png);
+}
+
 h1 {
   text-align: center;
   font-size: 150px;
@@ -159,6 +167,74 @@ a:active {
   left: 50px;
 }
 
+/* thrid page */
+
+/* <!-- text part 1 --> */
+.flower2_1 {
+  width: 500px;
+  height: 450px;
+  top: 0px;
+  left: 400px;
+}
+
+/* <!-- text part 2 --> */
+
+.flower2_2 {
+  width: 800px;
+  height: 550px;
+  top: 450px;
+  left: 300px;
+}
+
+/* <!-- text part 3 --> */
+
+.flower2_3 {
+  width: 600px;
+  height: 450px;
+  transform: rotate(-20deg);
+  top: 300px;
+  left: 750px;
+}
+
+/* <!-- ink --> */
+.flower2_4 {
+  width: 700px;
+  height: 450px;
+  top: -100px;
+  left: 600px;
+}
+
+/* <!-- lip --> */
+
+.flower2_5 {
+  width: 700px;
+  height: 350px;
+  top: 300px;
+  left: 200px;
+}
+
+/* <!-- flower ora --> */
+.flower2_6 {
+  width: 600px;
+  height: 600px;
+  top: 200px;
+  left: 900px;
+}
+
+/* <!-- flower3 --> */
+.flower2_7 {
+  width: 400px;
+  height: 450px;
+  top: 400px;
+  left: -250px;
+}
+/* <!-- flower yel --> */
+.flower2_8 {
+  width: 700px;
+  height: 500px;
+  top: 0px;
+  left: -100px;
+}
 .rotateflower {
   transform: rotate(-20deg);
 }
