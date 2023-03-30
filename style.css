@@ -22,7 +22,7 @@ body {
 }
 
 .secondbackground {
-  background-image: url(/image/Homepage/homepage\ copy.jpg);
+  background-image: url(/image/2page/flower.2.png);
 }
 
 h1 {
@@ -61,6 +61,7 @@ a:active {
   outline-offset: 10px;
 }
 
+/* first page */
 /* = */
 .flower0_1 {
   width: 550px;
@@ -125,6 +126,37 @@ a:active {
   /* transform: rotate(330deg); */
   top: 350px;
   left: 1000px;
+}
+
+/* second page */
+/* text part 1 */
+.flower1_1 {
+  width: 1000px;
+  height: 650px;
+  top: 200px;
+  left: 150px;
+}
+/* text part 2 */
+.flower1_2 {
+  width: 350px;
+  height: 320px;
+  transform: rotate(-20deg);
+  top: 500px;
+  left: 950px;
+}
+/* hand*/
+.flower1_3 {
+  width: 550px;
+  height: 600px;
+  top: -20px;
+  left: 750px;
+}
+/* lip */
+.flower1_4 {
+  width: 400px;
+  height: 450px;
+  top: -0px;
+  left: 50px;
 }
 
 .rotateflower {
