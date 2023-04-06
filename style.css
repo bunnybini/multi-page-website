@@ -29,8 +29,12 @@ body {
   background-image: url(/image/3page/flower.3.png);
 }
 
-.Forthbackground {
+.forthbackground {
   background-image: url(/image/4page/flower.4.png);
+}
+
+.fifthbackground {
+  background-image: url(/image/5page/flower5.png);
 }
 
 h1 {
@@ -257,6 +261,29 @@ a:active {
   height: 300px;
   top: 550px;
   left: 500px;
+}
+
+/* page 5 */
+
+.flower4_1 {
+  width: 300px;
+  height: 200px;
+  top: 300px;
+  left: 100px;
+}
+
+.flower4_2 {
+  width: 300px;
+  height: 200px;
+  top: 350px;
+  left: 1100px;
+}
+
+.flower4_3 {
+  width: 600px;
+  height: 400px;
+  top: 200px;
+  left: 450px;
 }
 
 .rotateflower {
