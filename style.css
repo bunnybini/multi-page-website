@@ -18,23 +18,23 @@ body {
 }
 
 .firstbackground {
-  background-image: url(/image/Homepage/homepage\ copy.jpg);
+  background-image: url(/multi-page-website/image/Homepage/homepage\ copy.jpg);
 }
 
 .secondbackground {
-  background-image: url(/image/2page/flower.2.png);
+  background-image: url(/multi-page-website/image/2page/flower.2.png);
 }
 
 .thridbackground {
-  background-image: url(/image/3page/flower.3.png);
+  background-image: url(/multi-page-website/image/3page/flower.3.png);
 }
 
 .forthbackground {
-  background-image: url(/image/4page/flower.4.png);
+  background-image: url(/multi-page-website/image/4page/flower.4.png);
 }
 
 .fifthbackground {
-  background-image: url(/image/5page/flower5.png);
+  background-image: url(/multi-page-website/image/5page/flower5.png);
 }
 
 h1 {
@@ -51,7 +51,7 @@ a:active {
 }
 
 .frame {
-  background-image: url(/image/Homepage/homepage\ copy.jpg);
+  background-image: url(/multi-page-website/image/Homepage/homepage\ copy.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
